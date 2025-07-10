@@ -1,0 +1,9 @@
+.my-posts-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 2rem;
+}
+.my-posts-container h2 {
+  text-align: center;
+  color: #5c2e91;
+}

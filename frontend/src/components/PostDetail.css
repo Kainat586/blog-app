@@ -1,0 +1,75 @@
+.post-detail-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.post-detail-container.dark-mode {
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+}
+
+.post-detail-image {
+    width: 100%;
+    height: 8cm;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+
+
+.post-detail-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.dark-mode .post-detail-title {
+  color: #fff;
+}
+
+.post-detail-content {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-top: 20px;
+  white-space: pre-line;
+}
+
+.post-detail-meta {
+  font-size: 14px;
+  color: #777;
+  margin-top: 10px;
+}
+
+.dark-mode .post-detail-meta {
+  color: #aaa;
+}
+
+.back-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  background-color: #4e8cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #2563eb;
+}
+
+.dark-mode .back-button {
+  background-color: #3b82f6;
+}

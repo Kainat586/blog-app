@@ -1,0 +1,46 @@
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  background: #f9f5f9;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.post-form input[type="text"],
+.post-form textarea,
+.post-form input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.post-form textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.post-form button {
+  padding: 10px 16px;
+  border: none;
+  background: #c51689;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.post-form button:hover {
+  background: #a01472;
+}

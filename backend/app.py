@@ -25,7 +25,8 @@ db = client["blogDB"]
 posts = db["posts"]
 users = db["users"]
 
-UPLOAD_FOLDER = os.path.join(os.getcwd(), 'uploads')
+UPLOAD_FOLDER = os.path.join(os.path.dirname(__file__), 'uploads')
+
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
